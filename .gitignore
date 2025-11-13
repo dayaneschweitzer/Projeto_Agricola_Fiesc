@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dados grandes
+data/*.csv
+data/*.xlsx
+data/raw/
+data/tmp/
+
+# VSCode
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
