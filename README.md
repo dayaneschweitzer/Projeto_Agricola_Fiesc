@@ -5,7 +5,6 @@ Este repositório contém a prova de conceito (PoC) desenvolvida para o desafio 
 ## Estrutura do projeto
 
 - `src/` – scripts principais de pré-processamento, modelagem e avaliação.
-- `notebooks/` – experimentos exploratórios e análises iniciais.
 - `data/` – dados de entrada (ou instruções para obtê-los).
 - `docs/` – enunciado do desafio e anotações técnicas.
 

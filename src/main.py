@@ -23,7 +23,7 @@ def main():
     print("[2/4] Separando features e alvo...")
     X, y = split_features_target(df, target_col="class_id")
 
-    # 3) Normalizar (opcional mas ajuda modelos baseados em distância)
+    # 3) Normalizar
     print("[3/4] Normalizando espectros (min-max por coluna)...")
     X_norm = minmax_normalize(X)
 
@@ -37,8 +37,6 @@ def main():
     print(results["report"])
 
     # x_target pode ser usado em notebooks/gráficos explicando o eixo 780–1080 nm
-    # (por exemplo, salvar em algum lugar se quiser explorar visualmente).
-
 
 if __name__ == "__main__":
     main()
